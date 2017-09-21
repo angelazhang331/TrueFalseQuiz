@@ -14,7 +14,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button trueButton, falseButton, nextButton;
-    private TextView questionText, correctText;
+    private TextView questionText, correctText, currentScoreText;
     private List<Question> questionBank;
     private List<Integer> askedQuestions;
     private Question currentQuestion;
@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         questionText.setMaxWidth(1200);
         questionText.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         questionText.setTextSize(TypedValue.COMPLEX_UNIT_SP,18);
+
+
     }
 
     private void initQuestionBank() {
@@ -88,6 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //wiring Text
         questionText = (TextView) findViewById(R.id.text_question);
         correctText = (TextView) findViewById(R.id.text_correct_incorrect);
+        currentScoreText = (TextView) findViewById(R.id.text_current_score);
     }
 
     @Override
@@ -127,6 +130,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(currentQuestion.isAnswer() == answer) {
             correctText.setText(R.string.text_correct);
             score++;
+            currentScoreText.setText("Score = " + score);
         }
         else {
             correctText.setText(R.string.text_incorrect);
