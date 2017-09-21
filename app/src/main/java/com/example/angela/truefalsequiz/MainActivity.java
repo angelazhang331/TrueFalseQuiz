@@ -69,6 +69,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         questionBank.add(new Question(getString(R.string.question_ostriches), false));
         questionBank.add(new Question(getString(R.string.question_braille), true));
         questionBank.add(new Question(getString(R.string.question_coffee), true));
+        questionBank.add(new Question(getString(R.string.question_space), false));
+        questionBank.add(new Question(getString(R.string.question_beijing), true));
+        questionBank.add(new Question(getString(R.string.question_hurricanes), true));
     }
 
     private void initAskedQuestions() {

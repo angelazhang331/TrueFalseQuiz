@@ -15,4 +15,7 @@
     <string name="text_restart" translatable="false">Restart</string>
     <string name="text_correct" translatable="false">Correct!</string>
     <string name="text_incorrect" translatable="false">Incorrect!</string>
+    <string name="question_space">An American was the first man in space.</string>
+    <string name="question_beijing">The Forbidden City is in Beijing.</string>
+    <string name="question_hurricanes">Hurricanes and typhoons are the same thing.</string>
 </resources>
