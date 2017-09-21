@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">True False Quiz</string>
+    <string name="text_false" translatable="false">False</string>
+    <string name="text_true" translatable="false">True</string>
+    <string name="next_question" translatable="false">Next Question</string>
+    <string name="question_basketball" translatable="false">Basketball is the only major sport completely American in origin.</string>
+    <string name="question_magma" translatable="false">Magma is the scientific name for lava.</string>
+    <string name="question_organ" translatable="false">Skin is the human body\'s largest organ.</string>
+    <string name="question_fahrenheit" translatable="false">The classic sci-fi novel Fahrenheit 451 gets its title from the temperature used to burn paper.</string>
+    <string name="question_ostriches" translatable="false">Ostriches bury their heads up to 18 inches in the sand.</string>
+    <string name="question_braille" translatable="false">Louis Braille, creator of the Braille system of writing for the blind, was himself blind.</string>
+    <string name="question_coffee" translatable="false">Other than water, coffee is the world\'s most popular drink.</string>
+    <string name="text_out" translatable="false">Out of Questions!</string>
+    <string name="text_empty" translatable="false" />
+    <string name="text_restart" translatable="false">Restart</string>
+    <string name="text_correct" translatable="false">Correct!</string>
+    <string name="text_incorrect" translatable="false">Incorrect!</string>
+</resources>
